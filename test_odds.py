@@ -61,6 +61,19 @@ params = {
     'supp_reg': 1,    # 0: L0, 1: L1, 2: clipped
     'supp_lambda': 0.02,
 }
+# Good supp_lambda values found via grid-search
+# L0
+#  satellite.csv : 0.009695128297758569
+#  shuttle.csv   : 0.023854930000000826
+#  pendigits.csv : 0.01102320000000024
+#  speech.csv    : 0.00047483167617358473
+#  mnist.csv     : 0.0013071141248941365
+# L1
+#  satellite.csv : 0.09378937464459605
+#  shuttle.csv   : 0.12765840000000167
+#  pendigits.csv : 0.12071539999999897
+#  speech.csv    : 0.02088700000000009
+#  mnist.csv     : 0.042566299438476105
 
 # DATA
 # init dictionary
